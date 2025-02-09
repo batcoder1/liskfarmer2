@@ -1,0 +1,21 @@
+{
+  "name": "liskfarmer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "tsc -p tsconfig.build.json && npm run copy-config"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "eslint": "^9.19.0",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-tslint-plugin": "^1.0.2",
+    "web3": "^4.16.0"
+  }
+}
